@@ -22,6 +22,7 @@ int main()
 	sc->stdcall_fn( ( uintptr_t ) test, 3, 1, 2, 3 );
 }
 ```
+The code above should output '6'.
 
 # Observation
 You will need to provide an address which contains an 'call esi'.
